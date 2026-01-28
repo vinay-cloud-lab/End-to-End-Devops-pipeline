@@ -1,4 +1,4 @@
-# Cloud-Native CI/CD Pipeline using Jenkins, Docker & Kubernetes
+# Cloud-Native CI/CD Pipeline using Jenkins, Docker and Kubernetes
 
 This project demonstrates a production-style DevOps CI/CD pipeline that automates building, containerizing, and deploying an application to a Kubernetes cluster using modern cloud-native tools.
 
@@ -14,14 +14,14 @@ It showcases real-world DevOps practices including CI/CD automation, containeriz
 
 ---
 
-## Tools & Technologies Used
+## Tools and Technologies Used
 
 | Tool | Purpose |
 |------|---------|
-| AWS EC2 | Cloud infrastructure (Jenkins + Kubernetes nodes) |
-| Git & GitHub | Source code management |
+| AWS EC2 | Cloud infrastructure (Jenkins and Kubernetes nodes) |
+| Git and GitHub | Source code management |
 | Jenkins | CI/CD pipeline automation |
-| Docker | Containerization of application |
+| Docker | Containerization |
 | Docker Hub | Container image registry |
 | Kubernetes | Container orchestration and deployment |
 | kubectl | Kubernetes CLI management |
@@ -38,27 +38,34 @@ It showcases real-world DevOps practices including CI/CD automation, containeriz
 ---
 
 ## Architecture Diagram
+
 ![Architecture](screenshots/architecture-diagram.png)
 
-## AWS Infrastructure
+---
+
+## Project Screenshots
+
+### AWS Infrastructure
 ![EC2 Instances](screenshots/aws-ec2-instances.png)
 
-## Jenkins CI/CD Pipeline
-![Pipeline Success](screenshots/jenkins-pipeline-success.png)
+### Jenkins CI/CD Pipeline
+![Pipeline Success](screenshots/jenkins-pipeline-success.png)  
 ![Pipeline Script](screenshots/jenkins-pipeline-script.png)
 
-## Docker Build and Push
-![Build Stage](screenshots/jenkins-stage-build.png)
+### Docker Build and Push
+![Build Stage](screenshots/jenkins-stage-build.png)  
 ![Push Stage](screenshots/jenkins-stage-push.png)
 
-## Kubernetes Deployment
-![Cluster Status](screenshots/kubernetes-cluster-status.png)
+### Docker Registry (Image Stored)
+![Docker Hub Repository](screenshots/docker-registry.png)
+
+### Kubernetes Deployment
 ![Pods and Services](screenshots/kubernetes-pods-services.png)
 
-## Credentials Management
+### Credentials Management
 ![Jenkins Credentials](screenshots/jenkins-credentials.png)
 
-## Application Running
+### Application Running
 ![Application](screenshots/application-running.png)
 
 ---
