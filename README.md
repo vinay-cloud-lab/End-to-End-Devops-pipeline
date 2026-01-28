@@ -67,10 +67,3 @@ It showcases real-world DevOps practices including CI/CD automation, containeriz
 ![Application](screenshots/application-running.png)
 
 ---
-
-## How to Run This Project
-
-### Clone Repository
-```bash
-git clone <your-repo-link>
-cd <repo-folder>
