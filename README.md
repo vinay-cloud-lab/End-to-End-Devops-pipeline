@@ -38,32 +38,27 @@ It showcases real-world DevOps practices including CI/CD automation, containeriz
 ---
 
 ## Architecture Diagram
-
 ![Architecture](screenshots/architecture-diagram.png)
 
----
-
-## Project Screenshots
-
-### AWS Infrastructure
+## AWS Infrastructure
 ![EC2 Instances](screenshots/aws-ec2-instances.png)
 
-### Jenkins CI/CD Pipeline
-![Pipeline Success](screenshots/jenkins-pipeline-success.png)  
+## Jenkins CI/CD Pipeline
+![Pipeline Success](screenshots/jenkins-pipeline-success.png)
 ![Pipeline Script](screenshots/jenkins-pipeline-script.png)
 
-### Docker Build and Push
-![Build Stage](screenshots/jenkins-stage-build.png)  
+## Docker Build and Push
+![Build Stage](screenshots/jenkins-stage-build.png)
 ![Push Stage](screenshots/jenkins-stage-push.png)
 
-### Kubernetes Deployment
-![Cluster Status](screenshots/kubernetes-cluster-status.png)  
+## Kubernetes Deployment
+![Cluster Status](screenshots/kubernetes-cluster-status.png)
 ![Pods and Services](screenshots/kubernetes-pods-services.png)
 
-### Credentials Management
+## Credentials Management
 ![Jenkins Credentials](screenshots/jenkins-credentials.png)
 
-### Application Running
+## Application Running
 ![Application](screenshots/application-running.png)
 
 ---
